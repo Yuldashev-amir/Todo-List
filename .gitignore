@@ -1,1 +1,40 @@
-"build*/ *.exe *.obj *.dll *.o *.user *.moc *.qrc" 
+# Build directories
+build*/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.autosave
+*.qmake.stash
+*.qmake.cache
+
+# Qt-generated files
+moc_*
+ui_*
+qrc_*
+*.moc
+*.rcc
+*.qrc
+
+# IDEs
+.vscode/
+.idea/
+*.sdf
+*.opensdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+*.bak
