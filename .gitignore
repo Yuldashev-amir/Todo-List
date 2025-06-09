@@ -1,0 +1,1 @@
+"build*/ *.exe *.obj *.dll *.o *.user *.moc *.qrc" 
